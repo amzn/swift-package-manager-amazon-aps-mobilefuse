@@ -4,10 +4,10 @@ Swift Package Manager distribution for the APS MobileFuse mediation adapter.
 
 ## Requirements
 
-- iOS 12.0+
+- iOS 15.0+
 - Xcode 15.0+
-- Amazon Publisher Services SDK 5.6.6+
-- MobileFuse SDK 1.11.0+
+- Amazon Publisher Services SDK 5.7.0+
+- MobileFuse SDK 1.11.0 – 1.x
 
 ## Installation
 
@@ -15,13 +15,13 @@ Swift Package Manager distribution for the APS MobileFuse mediation adapter.
 
 1. File → Add Package Dependencies…
 2. Enter `https://github.com/amzn/swift-package-manager-amazon-aps-mobilefuse.git`
-3. Select "Up to Next Major Version" from `1.0.0`.
+3. Select "Up to Next Major Version" from `1.1.0`.
 4. Add the `AmazonPublisherServicesMobileFuseAdapter` product to your app target.
 
 **Package.swift**
 
 ```swift
-.package(url: "https://github.com/amzn/swift-package-manager-amazon-aps-mobilefuse.git", from: "1.0.0")
+.package(url: "https://github.com/amzn/swift-package-manager-amazon-aps-mobilefuse.git", from: "1.1.0")
 ```
 
 Then add the product:
